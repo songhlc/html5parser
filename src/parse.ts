@@ -184,6 +184,7 @@ function parseOpenTag() {
         while (++index < count) {
           token = tokens[index];
           if (token.type === TokenKind.OpenTagEnd) {
+            node = void 0;
             break;
           }
           appendLiteral();

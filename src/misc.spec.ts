@@ -33,9 +33,8 @@ function run(url: string) {
 }
 
 const scenes = [
-  'https://github.com/',
-  'https://www.npmjs.com/',
-  'https://www.zhihu.com/',
+  // 'https://github.com/',
+  'https://www.baidu.com/',
 ];
 
 describe('real scenarios', () => {

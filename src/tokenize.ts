@@ -35,7 +35,7 @@ const HTML_STANDARD_TAGS = [
   'center',
   'cite',
   'code',
-  'col',
+  // 'col', vue的一些组件里有Col的写法，该死 先去掉吧
   'colgroup',
   'command',
   'datalist',
